@@ -37,9 +37,22 @@ Explicación de los comandos
 5. git push
     - Función: sube los commits locales al repositorio remoto en GitHub.
     - Uso: sube los cambios a nuestro fork
-    - Log generado:
+    - Log generado: Enumerating objects: 20, done.
+                    Counting objects: 100% (20/20), done.
+                    Delta compression using up to 2 threads
+                    Compressing objects: 100% (14/14), done.
+                    Writing objects: 100% (18/18), 3.62 KiB | 3.62 MiB/s, done.
+                    Total 18 (delta 2), reused 5 (delta 0), pack-reused 0 (from 0)
+                    remote: Resolving deltas: 100% (2/2), done.
+                    To https://github.com/oscarlopeeez/ci-cd.git
+                    45fab2a..b2aebb6  main -> main
 
 6. git chekout
-    - Función: 
-    - Uso: 
-    - Log generado:
+    - Función: cambia de rama o restaura archivos a un estado anterior.
+    - Uso: lo usamos para cambiar entre ramas y podemos cambiar a ramas ya creadas o a nuevas.
+    - Log generado: 
+            Switched to a new branch 'feature/1'
+
+            M       git.txt
+            Switched to branch 'main'
+            Your branch is up to date with 'origin/main'.
