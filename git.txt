@@ -24,18 +24,19 @@ Explicación de los comandos
                     no changes added to commit (use "git add" and/or "git commit -a")
 
 3. git add
-    - Función: 
-    - Uso: 
-    - Log generado: 
+    - Función: añade archivos al staging area.
+    - Uso: lo usamos antes de realizar un commit para preparar los cambios.
+    - Log generado: no genera log, y los cambios los vemos si hacemos un git status.
 
 4. git commit
-    - Función: 
-    - Uso: 
-    - Log generado:
+    - Función: siempre va acompañado de un mensaje y guarda los cambios añadidos con "git add ." en el historial del repositorio.
+    - Uso: creamos un commit para documentar los cambios.
+    - Log generado: [main 27c3696] Descripción de los cambios realizados
+                    1 file changed, 44 insertions(+), 1 deletion(-)
 
 5. git push
-    - Función: 
-    - Uso: 
+    - Función: sube los commits locales al repositorio remoto en GitHub.
+    - Uso: sube los cambios a nuestro fork
     - Log generado:
 
 6. git chekout
