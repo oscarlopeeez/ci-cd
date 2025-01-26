@@ -27,8 +27,3 @@ jobs:
     uses: ./.github/workflows/ci.yml
   deploy:
     needs: [ci]
-          # Upload entire repository
-          path: './src'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
