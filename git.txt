@@ -1,1 +1,44 @@
-Contenido del archivo git.txt
+Explicación de los comandos
+
+1. git clone
+    - Función: clona un repositorio remoto y lo descarga en tu equipo local.
+    - Uso: lo usamos para descargar nuestro fork desde GitHub.
+    - Log generado: Cloning into 'p1-fork'...
+                    remote: Enumerating objects: 6, done.
+                    remote: Counting objects: 100% (1/1), done.
+                    remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 5 (from 1)
+                    Receiving objects: 100% (6/6), done.
+
+2. git status
+    - Función: muestra el estado actual del repositorio (archivos modificados, añadidos, pendientes de commit).
+    - Uso: verifica los cambios en el repositorio.
+    - Log generado: On branch main
+                    Your branch is ahead of 'origin/main' by 1 commit.
+                    (use "git push" to publish your local commits)
+
+                    Changes not staged for commit:
+                    (use "git add <file>..." to update what will be committed)
+                    (use "git restore <file>..." to discard changes in working directory)
+                            modified:   git.txt
+
+                    no changes added to commit (use "git add" and/or "git commit -a")
+
+3. git add
+    - Función: 
+    - Uso: 
+    - Log generado: 
+
+4. git commit
+    - Función: 
+    - Uso: 
+    - Log generado:
+
+5. git push
+    - Función: 
+    - Uso: 
+    - Log generado:
+
+6. git chekout
+    - Función: 
+    - Uso: 
+    - Log generado:
