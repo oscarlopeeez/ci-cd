@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Práctica 1
 
 Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
@@ -22,3 +23,6 @@ git checkout main
 ## ¿Cómo escribir un README.md con formato?
 
 [Github Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+=======
+# ci-cd
+>>>>>>> 45fab2a387b518bdd57af28b824acfa764d4178b
